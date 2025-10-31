@@ -1,0 +1,31 @@
+# Generic
+.DS_Store
+__pycache__/
+
+# Build system
+/.sconsign.dblite
+/build/
+/venv/
+
+# Ignore entire SDK except cherry-picked files/dirs
+/PortalSDK/*
+
+# Cherry-pick Python converter
+!/PortalSDK/code/
+/PortalSDK/code/*
+!/PortalSDK/code/gdconverter/
+
+# Cherry-pick asset data
+!/PortalSDK/FbExportData/
+
+# Cherry-pick Godot project (sans binaries & bundled assets)
+!/PortalSDK/GodotProject/
+/PortalSDK/GodotProject/gdconverter/
+/PortalSDK/GodotProject/FbExportData/
+/PortalSDK/GodotProject/export/
+
+# Ignore Godot UID files (seemingly not committed to SDK)
+/PortalSDK/GodotProject/scripts/**/*.gd.uid
+
+# Ignore new files in Godot cache
+/PortalSDK/GodotProject/.godot/
