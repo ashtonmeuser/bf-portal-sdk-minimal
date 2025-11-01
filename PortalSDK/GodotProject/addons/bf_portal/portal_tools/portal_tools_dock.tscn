@@ -35,7 +35,7 @@ custom_minimum_size = Vector2(100, 0)
 layout_mode = 2
 size_flags_horizontal = 0
 tooltip_text = "Setup python and virtual environment"
-text = "Portal Setup"
+text = "Generate Object Library"
 
 [node name="HSeparator" type="HSeparator" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2
